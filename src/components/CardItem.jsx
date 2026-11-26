@@ -92,12 +92,12 @@ export default function CardItem({ card }) {
             <ExternalLink className="w-3 h-3 opacity-80 shrink-0" />
           </a>
 
-          {/* Button 2: Order on WhatsApp */}
+          {/* Button 2: Order on WhatsApp (Darker Rich Forest WhatsApp Green) */}
           <a
             href={getWhatsAppOrderUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full min-h-[30px] sm:min-h-[34px] py-1 px-2 rounded-md bg-[#25D366] hover:bg-[#20ba5a] text-white text-[10px] sm:text-[11px] font-sans font-medium text-center flex items-center justify-center gap-1 transition-colors active:scale-98 shadow-xs"
+            className="w-full min-h-[30px] sm:min-h-[34px] py-1 px-2 rounded-md bg-[#1b6b42] hover:bg-[#155434] text-white text-[10px] sm:text-[11px] font-sans font-medium text-center flex items-center justify-center gap-1 transition-colors active:scale-98 shadow-xs"
           >
             <MessageCircle className="w-3 h-3 fill-white shrink-0" />
             <span className="truncate">Order on WhatsApp</span>

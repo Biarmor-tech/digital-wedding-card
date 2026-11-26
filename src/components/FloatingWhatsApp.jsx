@@ -11,7 +11,7 @@ export default function FloatingWhatsApp() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white shadow-lg hover:bg-[#20ba5a] hover:scale-105 active:scale-95 transition-all duration-200"
+        className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#1b6b42] text-white shadow-md hover:bg-[#155434] hover:scale-105 active:scale-95 transition-all duration-200"
         aria-label="Order on WhatsApp"
         title="Order on WhatsApp"
       >

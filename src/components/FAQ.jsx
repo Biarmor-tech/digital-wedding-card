@@ -53,7 +53,7 @@ export default function FAQ() {
         })}
       </div>
 
-      {/* WhatsApp question bar */}
+      {/* WhatsApp question bar with darker green */}
       <div className="mt-8 text-center">
         <a
           href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Biarmor! I have a question about digital wedding cards.")}`}
@@ -61,7 +61,7 @@ export default function FAQ() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-xs font-sans font-medium text-[#252523] hover:text-[#935d48] bg-white border border-[#e2ded4] px-4 py-2 rounded-full shadow-2xs transition-colors"
         >
-          <MessageCircle className="w-3.5 h-3.5 text-[#25D366] fill-[#25D366]" />
+          <MessageCircle className="w-3.5 h-3.5 text-[#1b6b42] fill-[#1b6b42]" />
           <span>Have more questions? Ask on WhatsApp</span>
         </a>
       </div>
