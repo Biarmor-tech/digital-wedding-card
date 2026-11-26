@@ -1,6 +1,6 @@
 // Biarmor Digital Wedding Cards Catalogue Data
 
-export const WHATSAPP_NUMBER = "919000000000"; // Replace with your official WhatsApp number
+export const WHATSAPP_NUMBER = "917618739515";
 export const COMPANY_NAME = "Biarmor";
 
 export const CATEGORIES = [
