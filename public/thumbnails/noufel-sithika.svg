@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1e1b"/>
+      <stop offset="40%" stop-color="#0e2a25"/>
+      <stop offset="100%" stop-color="#071513"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e27a"/>
+      <stop offset="25%" stop-color="#cb9b51"/>
+      <stop offset="50%" stop-color="#f6e27a"/>
+      <stop offset="75%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa771c"/>
+    </linearGradient>
+    <linearGradient id="softGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f9ecc2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Radial Glow -->
+  <circle cx="300" cy="400" r="280" fill="#1b4d44" opacity="0.25" filter="url(#glow)"/>
+
+  <!-- Outer Double Border -->
+  <rect x="25" y="25" width="550" height="750" rx="16" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6"/>
+  <rect x="35" y="35" width="530" height="730" rx="12" fill="none" stroke="url(#goldGrad)" stroke-width="0.75" opacity="0.4"/>
+
+  <!-- Corner Floral Accents -->
+  <g stroke="url(#goldGrad)" stroke-width="1" fill="none" opacity="0.7">
+    <!-- Top Left -->
+    <path d="M 45 65 Q 65 65 65 45"/>
+    <circle cx="65" cy="65" r="3" fill="url(#goldGrad)"/>
+    <!-- Top Right -->
+    <path d="M 555 65 Q 535 65 535 45"/>
+    <circle cx="535" cy="65" r="3" fill="url(#goldGrad)"/>
+    <!-- Bottom Left -->
+    <path d="M 45 735 Q 65 735 65 755"/>
+    <circle cx="65" cy="735" r="3" fill="url(#goldGrad)"/>
+    <!-- Bottom Right -->
+    <path d="M 555 735 Q 535 735 535 755"/>
+    <circle cx="535" cy="735" r="3" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Grand Islamic Mughal Arch -->
+  <path d="M 70 720 L 70 290 Q 70 190 190 140 Q 260 110 300 70 Q 340 110 410 140 Q 530 190 530 290 L 530 720 Z" 
+        fill="#0b221e" stroke="url(#goldGrad)" stroke-width="2" opacity="0.9"/>
+  <path d="M 82 720 L 82 295 Q 82 200 196 153 Q 263 125 300 88 Q 337 125 404 153 Q 518 200 518 295 L 518 720 Z" 
+        fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.5"/>
+
+  <!-- Ornate Arch Crest / Star -->
+  <g transform="translate(300, 155)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="url(#goldGrad)" stroke-width="1.2"/>
+    <polygon points="0,-12 3,-3 12,0 3,3 0,12 -3,3 -12,0 -3,-3" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Bismillah Calligraphic Motif Representation -->
+  <g transform="translate(300, 215)" text-anchor="middle">
+    <text font-family="'Cormorant Garamond', serif" font-size="14" letter-spacing="6" fill="url(#goldGrad)" font-weight="600">
+      بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+    </text>
+    <text font-family="'Cormorant Garamond', Georgia, serif" font-size="11" letter-spacing="4" fill="#a4c2ba" y="24" text-transform="uppercase">
+      In The Name of Allah, The Most Gracious
+    </text>
+  </g>
+
+  <line x1="200" y1="270" x2="400" y2="270" stroke="url(#goldGrad)" stroke-width="0.75" opacity="0.6"/>
+  <circle cx="300" cy="270" r="3.5" fill="url(#goldGrad)"/>
+
+  <!-- Invitation Sub-Header -->
+  <text x="300" y="325" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="4" fill="#88b3a7" font-weight="500">
+    THE ENGAGEMENT CELEBRATION OF
+  </text>
+
+  <!-- Couple Names -->
+  <g transform="translate(300, 395)" text-anchor="middle">
+    <text font-family="'Cormorant Garamond', 'Playfair Display', serif" font-size="44" font-weight="500" fill="url(#goldGrad)" letter-spacing="2">
+      Noufel
+    </text>
+    <text font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-style="italic" fill="#e2d2a4" y="45">
+      &amp;
+    </text>
+    <text font-family="'Cormorant Garamond', 'Playfair Display', serif" font-size="44" font-weight="500" fill="url(#goldGrad)" letter-spacing="2" y="95">
+      Sithika
+    </text>
+  </g>
+
+  <!-- Decorative Divider -->
+  <g transform="translate(300, 540)">
+    <line x1="-120" y1="0" x2="-20" y2="0" stroke="url(#goldGrad)" stroke-width="0.75" opacity="0.5"/>
+    <circle cx="0" cy="0" r="4" fill="url(#goldGrad)"/>
+    <circle cx="-8" cy="0" r="2" fill="url(#goldGrad)" opacity="0.7"/>
+    <circle cx="8" cy="0" r="2" fill="url(#goldGrad)" opacity="0.7"/>
+    <line x1="20" y1="0" x2="120" y2="0" stroke="url(#goldGrad)" stroke-width="0.75" opacity="0.5"/>
+  </g>
+
+  <!-- Tagline / Verse -->
+  <text x="300" y="585" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-style="italic" font-size="15" fill="#cbe4dc">
+    "And We created you in pairs"
+  </text>
+  <text x="300" y="605" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" letter-spacing="2" fill="#7da69b">
+    SURAH AN-NABA 78:8
+  </text>
+
+  <!-- Bottom CTA hint -->
+  <g transform="translate(300, 680)" text-anchor="middle">
+    <rect x="-95" y="-18" width="190" height="34" rx="17" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.6"/>
+    <text y="4" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" letter-spacing="2.5" fill="#f6e27a" font-weight="600">
+      TAP TO VIEW LIVE
+    </text>
+  </g>
+</svg>
